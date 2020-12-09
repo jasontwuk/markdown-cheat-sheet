@@ -4,9 +4,15 @@
 
 Normal text
 
-**Bold text**
+**Bold text 1**
 
-*Italic text*
+__Bold text 2__
+
+*Italic text 1*
+
+_Italic text 2_
+
+_You **can** combine them_
 
 ~~strikethrough text~~
 
@@ -33,6 +39,8 @@ bullet points with sub items:
 ---
 
 [Google](www.google.com)
+
+http://www.github.com/
 
 ---
 
@@ -91,4 +99,7 @@ fixes #39708
 more description...
 
 ---
-When you want to mention someone: @jasontwuk
+When you want to mention someone: @username
+
+---
+Emoji: 🙂 👋
