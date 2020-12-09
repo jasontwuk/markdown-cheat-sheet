@@ -11,7 +11,13 @@ Normal text
 ~~strikethrough text~~
 
 ---
+bullet points:
 
+* Start a line with a star
+* Profit!
+
+---
+bullet points with sub items:
 - item 1
 - item 2
   - sub item 2a
@@ -74,7 +80,7 @@ I do not agree with this.
 
 ---
 
-When mention an issue when pull request...
+When mention an issue in a pull request...
 
 closes #39707
 
@@ -83,3 +89,6 @@ or
 fixes #39708
 
 more description...
+
+---
+When you want to mention someone: @jasontwuk
