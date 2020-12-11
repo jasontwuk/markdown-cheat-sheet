@@ -1,20 +1,12 @@
-# Headline 1
-## Headline 2
-###### Headline 6
+# Markdown Cheat Sheet
 
-Normal text
+This is a simple markdown cheat sheet for Github users. Hope you find it helpful. 🙂
 
-**Bold text 1**
+||Result|Markdown|
+|:---:|:---:|:---:|
+|Headings|<h1>Heading L1</h1> <h2>Heading L2</h2> <h3>Heading L3</h3> <h4>Heading L4</h4> <h5>Heading L5</h5> <h6>Heading L6</h6>|`# Heading L1`<br> `## Heading L2`<br> `### Heading L3`<br> `#### Heading L4`<br> `##### Heading L5`<br> `###### Heading L6`<br><br> Note: There is a space between the number signs (#) and the heading name.|
+|Font weights and styles|Normal text<br>  **Bold text 1**<br> __Bold text 2__<br> *Italic text 1*<br> _Italic text 2_<br> _combine **bold** and Italic text_<br> ~~strikethrough text~~|`Normal text`<br>  `**Bold text 1**`<br> `__Bold text 2__`<br> `*Italic text 1*`<br> `_Italic text 2_`<br> `_combine **bold** and Italic text_`<br> `~~strikethrough text~~`|
 
-__Bold text 2__
-
-*Italic text 1*
-
-_Italic text 2_
-
-_You **can** combine them_
-
-~~strikethrough text~~
 
 ---
 bullet points:
