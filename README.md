@@ -6,28 +6,15 @@ This is a simple markdown cheat sheet for Github users. Hope you find it helpful
 |:---:|:---:|:---:|
 |Headings|<h1>Heading L1</h1> <h2>Heading L2</h2> <h3>Heading L3</h3> <h4>Heading L4</h4> <h5>Heading L5</h5> <h6>Heading L6</h6>|`# Heading L1`<br> `## Heading L2`<br> `### Heading L3`<br> `#### Heading L4`<br> `##### Heading L5`<br> `###### Heading L6`<br><br> Note: There is a space between the number signs (#) and the heading name.|
 |Font weights and styles|Normal text<br>  **Bold text 1**<br> __Bold text 2__<br> *Italic text 1*<br> _Italic text 2_<br> _combine **bold** and Italic text_<br> ~~strikethrough text~~|`Normal text`<br>  `**Bold text 1**`<br> `__Bold text 2__`<br> `*Italic text 1*`<br> `_Italic text 2_`<br> `_combine **bold** and Italic text_`<br> `~~strikethrough text~~`|
+|Paragraphs|<p align="left">This is paragraph one.</p><p align="left">This is paragraph two and I am longer than paragraph one.</p>|<p align="left">This is paragraph one.</p><p align="left">This is paragraph two and I am longer than paragraph one.</p> Note: use `a blank line` to separate paragraphs.|
+|Line Breaks|<p align="left">This is line one.</p><p align="left">This is line two and I am longer than line one.<p/>|<p align="left">This is line one.</p><p align="left">This is line two and I am longer than line one.<p/> Note: add `two or more spaces` after a line to create line breaks.|
+|Unordered Lists|<h4>Unordered List</h4><ul align="left"><li>item a</li><li>item b</li><li>item c</li></ul><h4>Unordered List with Sub-list</h4><ul align="left"><li>item a</li><li>item b<ul><li>item b1</li><li>item b2</li></ul></li><li>item c</li></ul>|<h4>Unordered List</h4> <div align="left">`* item a`<br> `* item b`<br> `* item c`<br></div> <h4>Unordered List with Sub-list</h4> <div align="left">`* item a`<br> `* item b`<br> <small>&ensp;&ensp;`* item b1`</small><br> <small>&ensp;&ensp;`* item b2`</small><br> `* item c`<br><br> Note:<br> 1. you can use dashes (-) or plus signs (+) to replace asterisks (*) to create the same result.<br> 2. add `two or more spaces` before an item to create sub-list items.</div>|
+|Ordered Lists|<h4>Ordered List</h4><ol align="left"><li>First item</li><li>Second item</li><li>Third item</li></ol> <h4>Ordered List with Sub-list</h4> <ol align="left"><li>first item</li><li>second item<ol><li>item 2a</li><li>item 2b</li></ol></li><li>Third item</li></ol>|<h4>Ordered List</h4> <div align="left">`1. first item`<br> `2. second item`<br> `3. Third item`<br></div> <h4>Unordered List with Sub-list</h4> <div align="left">`1. first item`<br> `1. second item`<br> <small>&ensp;&ensp;&ensp;`1. item 2a`</small><br> <small>&ensp;&ensp;&ensp;`1. item 2a`</small><br> `1. Third item`<br><br> Note:<br> 1. The numbers should start with the number one, but the rest of them don’t have to be in numerical order.<br> 2. add `three or more spaces` before an item to create sub-list items.|
+|Checkboxes|![screenshot](https://user-images.githubusercontent.com/13745974/101988936-cbfb4300-3c94-11eb-923c-c4ba49483155.png "checkboxes")<br> ✍️	|`- [ ] item 1`<br>  `- [x] item 2`<br>|
 
 
----
-bullet points:
 
-* Start a line with a star
-* Profit!
 
----
-bullet points with sub items:
-- item 1
-- item 2
-  - sub item 2a
---- 
-
-1. item a
-1. item b
-1. item c
----
-
-- [ ] item 1 
-- [x] item 2
 ---
 
 [Google](www.google.com)
